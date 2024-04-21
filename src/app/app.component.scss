@@ -1,0 +1,14 @@
+:host{
+    background-color: #2F303A ;
+    grid-template-columns: 1fr auto;
+    grid-template-columns: 2fr auto;
+    height: 100vh;
+}
+
+@media(max-width:368px){
+    :host{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
+

@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #2F303A ;
+    overFlow: hidden;
+}
+
+.circle {
+    position: absolute;
+}
+
+.circle-blue{
+    display: grid;
+    width: 15rem;
+    height: 15rem;
+    background-color: #bc3a801a;
+    border-radius: 50%;
+}
+.circle-pick{
+    width: 15rem;
+    height: 15rem;
+    background-color: #3457b21a;
+    border-radius: 50%;
+}
+
+.circle-big{
+   
+    width: 50rem;
+    height: 50rem;
+    background-color: #3457b21a;
+    border-radius: 100%;
+
+}
+
+.bottom-right {
+    bottom: -28rem;
+    right: -16rem;
+}
+
+@media screen and (max-width: 768px) {
+    .circle {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .circle-blue, .circle-pick {
+        border-radius: 50%;
+    }
+
+    .circle-big {
+        border-radius: 100%;
+    }
+
+    .girl{
+        display: none;
+    }
+}
+

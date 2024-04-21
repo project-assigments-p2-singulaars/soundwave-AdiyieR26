@@ -1,0 +1,71 @@
+@import "../../styles.scss";
+
+:host {
+    color: white;
+    top: 0;
+    left: 0;
+    font-size: 1.2rem;
+   
+   
+    
+  }
+
+  .container-header{
+    display: grid;
+    grid-template-columns:  1fr 2fr;
+  }
+
+  .container-logo-name{
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .logo{
+    margin-right: 10px;
+  }
+
+  .logo img{
+    height: 1.8rem;
+
+  }
+
+  .Brand-name{
+    font-size: 1.2rem;
+  }
+
+  .buttons{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .buttons button{
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0 10px;
+    cursor: pointer;
+    color: white;
+    transition: transform 0.2s;
+ 
+    
+  }
+
+  .buttons button:hover{
+    color: #202027;
+    
+  }
+
+  
+
+
+  
+
+  
+
+
+  
+
+

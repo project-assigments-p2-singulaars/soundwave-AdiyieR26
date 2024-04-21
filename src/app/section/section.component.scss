@@ -1,0 +1,58 @@
+@import "../../styles.scss";
+
+:host {
+    color: white;
+    top: 0;
+    left: 0;
+    font-size: 1.2rem; 
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    
+  }
+
+.girl {
+
+    margin-left: 10%;
+}
+
+
+.girl img{
+    display: grid;
+    padding: 30%;
+    height: 30rem; 
+  }
+
+  
+  .description{
+    grid-column: 2;
+    margin-bottom: 150px;
+  }
+
+
+
+  .title{
+    font-size: 50px;
+    margin-bottom: 5px;
+  }
+
+  .custom-button {
+    background-color: #2796ff;
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 10px;
+ 
+}
+
+.custom-button:hover {
+    background-color: #2180d8; 
+}
+
+
