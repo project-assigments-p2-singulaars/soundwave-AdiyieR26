@@ -1,0 +1,46 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #202027;
+    color: white;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+.footer-buttons {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    
+    
+}
+
+a {
+    padding: 2px 5px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color:transparent;
+    border: none;
+    text-decoration: none;
+    
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.social-buttons a {
+    margin: 0 5px;
+}
+
+.social-buttons img {
+    width: 30px;
+    height: 30px;
+}

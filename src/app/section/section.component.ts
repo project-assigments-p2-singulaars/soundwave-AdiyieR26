@@ -1,21 +1,13 @@
 import { Component, OnInit} from '@angular/core';
+import { HeaderComponent } from '../header/header.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-section',
   standalone: true,
-  imports: [],
+  imports: [HeaderComponent, RouterLink],
   templateUrl: './section.component.html',
   styleUrl: './section.component.scss'
 })
-export class SectionComponent implements OnInit {
-
-  constructor() {}
-
-  ngOnInit(): void {}
-
-  onJoinNew(): void {
-    console.log('JoinNew clicked');
-  }
-
-
+export class SectionComponent  {
 }

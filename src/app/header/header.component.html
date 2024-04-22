@@ -2,16 +2,16 @@
  <nav class="container-header">
 
     <div class="container-logo-name">
-        <div class="logo">
-             <img src="../../assets/assets/logo.png" alt="Logo Brand">
-        </div>
-            <h1 class="Brand-name">Soundwave</h1>
+       
+             <a routerLink="/"><img class="logo" src="../../assets/assets/logo.png" alt="Logo Brand"></a>
+             <a routerLink="/" class="Brand-name">Soundwave</a>
     </div>
 
-        <div class="buttons">
-            <button (click)="onDiscover()">Discover</button>
-            <button (click)="onJoin()">Join</button>
-        </div>
+    <div class="container-buttons">
+        <a  routerLink="/discover">Discover</a>
+        <a  routerLink="/join">Join</a>
+    </div>
+   
  </nav>
 
 

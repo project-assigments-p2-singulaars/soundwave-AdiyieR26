@@ -1,17 +1,11 @@
 @import "../../styles.scss";
 
-:host {
-    color: white;
-    top: 0;
-    left: 0;
-    font-size: 1.2rem; 
-  }
-
   .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     align-items: center;
+    color: white;
     
   }
 
@@ -31,17 +25,19 @@
   .description{
     grid-column: 2;
     margin-bottom: 150px;
+    font-weight: 300;
   }
 
 
 
   .title{
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 5px;
+    font-weight: 400;
   }
 
   .custom-button {
-    background-color: #2796ff;
+    background-color: #1762A7;
     color: white; 
     padding: 10px 20px; 
     border: none; 

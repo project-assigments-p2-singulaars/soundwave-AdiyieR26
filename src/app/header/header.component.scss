@@ -1,62 +1,50 @@
 @import "../../styles.scss";
 
-:host {
-    color: white;
-    top: 0;
-    left: 0;
-    font-size: 1.2rem;
-   
-   
-    
+  .container-header{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
   }
 
-  .container-header{
-    display: grid;
-    grid-template-columns:  1fr 2fr;
+  .container-buttons{
+    display: flex;
+    flex-direction: row;
+    border:none;
+    background-color:transparent;
+    color:white;
+    gap: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-top: 20px;
+    font-weight: 300;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
   }
 
   .container-logo-name{
     display: flex;
     align-items: center;
   }
-  
 
   .logo{
-    margin-right: 10px;
-  }
-
-  .logo img{
-    height: 1.8rem;
-
+    margin-right: 8px;
   }
 
   .Brand-name{
     font-size: 1.2rem;
-  }
-
-  .buttons{
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-  }
-
-  .buttons button{
-    margin-left: 10px;
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    margin: 0 10px;
-    cursor: pointer;
+    font-weight: 300;
     color: white;
-    transition: transform 0.2s;
- 
-    
+    text-decoration: none; 
   }
 
-  .buttons button:hover{
-    color: #202027;
-    
-  }
+  
+
+
 
   
 
